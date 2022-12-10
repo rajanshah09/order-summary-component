@@ -1,0 +1,111 @@
+/*
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+  */
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700&family=Montserrat:ital,wght@1,500;1,600&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+  --Pale-blue: hsl(225, 100%, 94%);
+ --Bright-blue: hsl(245, 75%, 52%);
+ --Very-pale-blue: hsl(225, 100%, 98%);
+ --Desaturated-blue: hsl(224, 23%, 55%);
+ --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  min-height: 100vh;
+  background-color:  hsl(225, 100%, 94%);
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+ 
+
+.container{
+  display:flex;
+  flex-direction:column;
+  /*height:450px;*/
+  max-width:300px;
+  background-color:var(--Very-pale-blue);
+  border-radius: 15px; 
+  overflow:hidden;
+  
+  
+}
+.main-textcontainer{
+ display: flex;
+ justify-content:space-between;
+ flex-direction:column;
+ margin: 20px;
+}
+.music{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction:row;
+  background-color:hsl(224, 23%, 95%);
+  border-radius:20px;
+  padding:10px;
+}
+.pay{
+  padding: 15px;
+  border-radius: 10px;
+  background-color:var(--Bright-blue);
+  color:white;
+  font-family:'Red Hat Display', sans-serif;
+  cursor: pointer;
+  border: none;
+  
+  
+}
+.plan{
+  display:flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  flex-direction: row;
+}
+.images img {
+  max-width:100%;
+  
+}
+p.p1{
+  text-decoration: underline;
+  font-family:'Red Hat Display', sans-serif;
+  color: blue;
+  cursor: pointer;
+  
+}
+p{
+  font-size: 14px;
+  font-weight: 500px;
+  font-family:'Red Hat Display', sans-serif; 
+  opacity: 0.5;
+  line-height: 1.5em;
+  text-align: center;
+}
+h3.light{
+  opacity: 0.5;
+}
+p:last-child{
+  cursor: pointer;
+}
+p.p1:hover{
+text-decoration: none;
+}
+
+
+  
+
